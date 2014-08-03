@@ -1,6 +1,6 @@
 # AEDE-gCache
 
-Script para [Greasemonkey](1), que resalta los enlaces a medios de asociados a AEDE y modifica los enlaces para visitarlos a través de la caché de google y de esta manera no generar visitas.
+Script para [Greasemonkey][1], que resalta los enlaces a medios de asociados a AEDE y modifica los enlaces para visitarlos a través de la caché de google y de esta manera no generar visitas.
 
 El script es muy similar a [anti-AEDE](https://github.com/pykiss/anti-AEDE) pero con menos funcionalidades y bastante más simple.
 
@@ -8,11 +8,11 @@ El script es muy similar a [anti-AEDE](https://github.com/pykiss/anti-AEDE) pero
 
 ![](img/3.png)
 
-Aunque AEDE-gCache se puede usar en Chrome/Chromium/Iron con la extensión [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/), funciona mejor con [Greasemonkey](1) en Firefox/Iceweasel.
+Aunque AEDE-gCache se puede usar en Chrome/Chromium/Iron con la extensión [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/), funciona mejor con [Greasemonkey][1] en Firefox/Iceweasel.
 
 ### Instalación
 
- 1. Instala [Greasemonkey](1) en Firefox/Iceweasel/IceCat
+ 1. Instala [Greasemonkey][1] en Firefox/Iceweasel/IceCat
  2. Instala el script desde [este enlace](https://raw.githubusercontent.com/P3nko/AEDE-gCache/master/script.user.js).
 
 ### Actualización
