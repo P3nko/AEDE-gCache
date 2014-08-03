@@ -16,6 +16,7 @@ Aunque AEDE-gCache se puede usar en Chrome/Chromium/Iron con la extensión [Tamp
  1. Abre el administrador de Scripts en Herramientas / Greasemonkey / Manage User User Scripts...
    ![](1.png)
  2. Botón derecho en AEDE-gCache y Buscar actualizaciones.
+   ![](2.png)
 
 ### Chrome/Chromium no respeta tu privacidad
 
