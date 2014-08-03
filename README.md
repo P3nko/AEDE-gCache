@@ -11,6 +11,12 @@ Aunque AEDE-gCache se puede usar en Chrome/Chromium/Iron con la extensión [Tamp
  1. Instala [Greasemonkey](1) en Firefox/Iceweasel/IceCat
  2. Instala el script desde [este enlace](https://raw.githubusercontent.com/P3nko/AEDE-gCache/master/script.user.js).
 
+### Actualización
+
+ 1. Abre el administrador de Scripts en Herramientas / Greasemonkey / Manage User User Scripts...
+   ![](1.png)
+ 2. Botón derecho en AEDE-gCache y Buscar actualizaciones.
+
 ### Chrome/Chromium no respeta tu privacidad
 
  - Envia información a Google a través de la función de sugerencias y autocompletado Omnibox

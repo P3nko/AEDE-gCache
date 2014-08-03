@@ -3,10 +3,10 @@
 // @namespace   aede
 // @description Resalta y visita los enlaces de medios aede desde la caché de google
 // @include     *
+// @updateURL   https://github.com/P3nko/AEDE-gCache/raw/master/script.user.js
 // @version     1
 // @grant       none
 // ==/UserScript==
-
 
 socios = [
   "abc.es",
@@ -99,27 +99,35 @@ socios = [
   "ultimahora.es"
 ];
 
-window.onload=cambiarEnlaces;
+document.onload=cambiarEnlaces;
 
-document.addEventListener('DOMAttrModified', function (event){
-  cambiarEnlaces();
-}, false);
+window.addEventListener('DOMContentLoaded', cambiarEnlaces , false);
 
 function cambiarEnlaces(){
   enlaces = document.getElementsByTagName("a");
-  for(var i in enlaces){
-    var hostname = enlaces[i].hostname; 
-    var parts = hostname.split('.');
-    var subdomain = parts.shift();
-    var upperleveldomain = parts.join('.');
-    for(var j in socios){
-      if( hostname == socios[j] || upperleveldomain  == socios[j] ){
-        enlaces[i].href = "http://webcache.googleusercontent.com/search?q=cache:"+enlaces[i].href;
-        enlaces[i].style.backgroundColor = "#42193A" ;
-        enlaces[i].style.color = "#fff" ;
-      }
+  for(var i in enlaces){ 
+    if( !hasClass(enlaces[i],'aede') ){
+      enlaces[i].classList.add("aede");
+      var hostname = enlaces[i].hostname; 
+      var parts = String(hostname).split('.');
+      var subdomain = parts.shift();
+      var upperleveldomain = parts.join('.');
+      for(var j in socios){
+        if( hostname == socios[j] || upperleveldomain  == socios[j] ){
+          enlaces[i].href = "http://webcache.googleusercontent.com/search?q=cache:"+enlaces[i].href;
+          enlaces[i].style.backgroundColor = "#42193A" ;
+          enlaces[i].style.color = "#fff" ;
+        }
+      }  
     }
   }
+}
+
+function hasClass(el, selector) {
+   var className = " " + selector + " ";
+   if ((" " + el.className + " ").replace(/[\n\t]/g, " ").indexOf(className) > -1) {
+     return true;
+   } return false;
 }
 
 
