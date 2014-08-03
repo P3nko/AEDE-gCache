@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name        aede
-// @namespace   aede
+// @name        AEDE-gCache
+// @namespace   AEDE
 // @description Resalta y visita los enlaces de medios aede desde la caché de google
 // @include     *
 // @updateURL   https://github.com/P3nko/AEDE-gCache/raw/master/script.user.js
