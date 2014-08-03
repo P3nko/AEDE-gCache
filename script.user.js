@@ -102,6 +102,7 @@ socios = [
 document.onload=cambiarEnlaces;
 
 window.addEventListener('DOMContentLoaded', cambiarEnlaces , false);
+window.addEventListener('DOMAttrModified', cambiarEnlaces , false);
 
 function cambiarEnlaces(){
   enlaces = document.getElementsByTagName("a");
