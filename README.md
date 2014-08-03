@@ -4,6 +4,10 @@ Script para [Greasemonkey](1), que resalta los enlaces a medios de asociados a A
 
 El script es muy similar a [anti-AEDE](https://github.com/pykiss/anti-AEDE) pero con menos funcionalidades y bastante más simple.
 
+### Screenshot
+
+![](3.png)
+
 Aunque AEDE-gCache se puede usar en Chrome/Chromium/Iron con la extensión [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/), funciona mejor con [Greasemonkey](1) en Firefox/Iceweasel.
 
 ### Instalación
