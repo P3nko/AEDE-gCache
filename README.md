@@ -6,7 +6,7 @@ El script es muy similar a [anti-AEDE](https://github.com/pykiss/anti-AEDE) pero
 
 ### Screenshot
 
-![](3.png)
+![](img/3.png)
 
 Aunque AEDE-gCache se puede usar en Chrome/Chromium/Iron con la extensión [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/), funciona mejor con [Greasemonkey](1) en Firefox/Iceweasel.
 
@@ -18,9 +18,9 @@ Aunque AEDE-gCache se puede usar en Chrome/Chromium/Iron con la extensión [Tamp
 ### Actualización
 
  1. Abre el administrador de Scripts en Herramientas / Greasemonkey / Manage User User Scripts...
-   ![](1.png)
+   ![](img/1.png)
  2. Botón derecho en AEDE-gCache y Buscar actualizaciones.
-   ![](2.png)
+   ![](img/2.png)
 
 ### Chrome/Chromium no respeta tu privacidad
 
